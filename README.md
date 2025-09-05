@@ -1,12 +1,11 @@
 # 🌐 Personal Portfolio — María Cribillés
 
-![Portfolio Preview](./public/og.png)
 
 ## ✨ About
 This is my **personal portfolio website**, built with **React + Vite + TailwindCSS** and deployed on **Vercel**.  
 It showcases my projects, skills, academic background and achievements, with a modern and responsive design.
 
-🔗 **Live website:** [maria-cribilles.vercel.app](https://maria-cribilles.vercel.app)
+🔗 **Live website:** [mariacribilles.com](mariacribilles.com)
 
 ---
 
@@ -29,14 +28,20 @@ cd portfolio
 ```
 
 ### 2. Install dependencies
+```bash
 npm install
+```
 
 ### 3. Run in development
+```bash
 npm run dev
+```
 
 ### 4. Build for production
+```bash
 npm run build
 npm run preview
+```
 
 ## 📂 Project Structure
 ```text
@@ -55,7 +60,7 @@ Feel free to reach out!
 
 - ✉️ Email: [mariacribilled@gmail.com](mailto:mariacribilled@gmail.com)  
 - 💼 LinkedIn: [linkedin.com/in/mariacribillesperez](https://linkedin.com/in/mariacribillesperez)  
-- 💻 GitHub: [github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)  
+- 💻 Web: [mariacribilles.com](mariacribilles.com)  
 
 ### ⭐ If you like this project, give it a star on GitHub!
 
