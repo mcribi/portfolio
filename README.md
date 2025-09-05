@@ -1,12 +1,61 @@
-# React + Vite
+# 🌐 Personal Portfolio — María Cribillés
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Preview](./public/og.png)
 
-Currently, two official plugins are available:
+## ✨ About
+This is my **personal portfolio website**, built with **React + Vite + TailwindCSS** and deployed on **Vercel**.  
+It showcases my projects, skills, academic background and achievements, with a modern and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live website:** [maria-cribilles.vercel.app](https://maria-cribilles.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Tech Stack
+- ⚛️ [React](https://react.dev/) — UI library
+- ⚡ [Vite](https://vitejs.dev/) — fast build tool
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) — utility-first CSS framework
+- 🎭 [Framer Motion](https://www.framer.com/motion/) — animations
+- 🖼️ [Lucide Icons](https://lucide.dev/) — icons
+- ☁️ [Vercel](https://vercel.com/) — deployment
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/YOUR_USERNAME/portfolio.git
+cd portfolio
+```
+
+### 2. Install dependencies
+npm install
+
+### 3. Run in development
+npm run dev
+
+### 4. Build for production
+npm run build
+npm run preview
+
+## 📂 Project Structure
+```text
+├── public/             # Static files (CV, images, favicon, og.png...)
+├── src/
+│   ├── App.jsx         # Main page
+│   ├── main.jsx        # Entry point
+│   └── components/     # UI components (Nav, Hero, Projects, ...)
+├── index.html          # HTML template
+├── tailwind.config.js  # Tailwind config
+└── vite.config.js      # Vite config
+```
+
+## 📬 Contact
+Feel free to reach out!
+
+- ✉️ Email: [mariacribilled@gmail.com](mailto:mariacribilled@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/mariacribillesperez](https://linkedin.com/in/mariacribillesperez)  
+- 💻 GitHub: [github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)  
+
+### ⭐ If you like this project, give it a star on GitHub!
+

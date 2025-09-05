@@ -2,7 +2,7 @@ import React from "react";
 import { Github, Linkedin, Mail, FileText, User, Briefcase, GraduationCap, Award, Code2, Users2, Database, Sparkles, Brain, Compass, Globe2, Lightbulb} from "lucide-react";
 
 
-/* ===================== DATA ===================== */
+/* data*/
 const PROJECTS = [
   {
     title: "TFG: Predicting Complications in Lung Biopsies",
@@ -36,7 +36,7 @@ const PROJECTS = [
 ];
 
 const SKILLS = [
-  // Lenguajes de mayor demanda
+  // Lenguajes 
   "Python", "Java", "C++", "SQL", "JavaScript", "C", "C#", "Ruby", "HTML", "CSS",
 
   // Frameworks y librerías IA/Data Science
@@ -59,7 +59,7 @@ const SKILLS = [
 
 
 
-/* ===================== UI HELPERS ===================== */
+/* UI HELPERS */
 function Kicker({ children }) {
   return (
     <div className="text-xs uppercase tracking-[0.18em] text-sky-700/80">
@@ -82,7 +82,7 @@ function Section({ id, kicker, title, children }) {
   );
 }
 
-/* ===================== NAVBAR (glass + grad) ===================== */
+/*NAVBAR (glass + grad) */
 function Nav() {
   return (
     <header
@@ -131,7 +131,7 @@ function Nav() {
 
 
 
-/* ===================== HERO (gradientes + anillo foto) ===================== */
+/* HERO (gradientes + anillo foto) */
 function Hero() {
   return (
     <section
@@ -257,7 +257,7 @@ function QuickFacts() {
   );
 }
 
-/* ===================== PROJECT CARD (borde gradiente + overlay) ===================== */
+/* PROJECT CARD (borde gradiente + overlay)  */
 function ProjectCard({ p, featured=false }) {
   return (
     <article className="group relative rounded-2xl p-[1px] bg-gradient-to-br from-sky-400/50 via-fuchsia-400/40 to-purple-400/40 hover:via-fuchsia-400/60 hover:to-purple-400/60 transition">
@@ -304,7 +304,7 @@ function ProjectCard({ p, featured=false }) {
   );
 }
 
-/* ===================== SECTIONS ===================== */
+/*  SECTIONS */
 function Projects() {
   return (
     <Section id="projects" kicker="Work" title="Projects">
